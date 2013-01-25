@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" href="resources/images/icon@2x.png"/>
+	<link rel="apple-touch-startup-image" href="resources/images/splash.png" />
+	<title>Hackear tpl es cosa del pasado</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bitter:400&amp;subset=latin" media="all" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+	<link rel="stylesheet" href="kinout/stylesheets/css/reset.css">
+	<link rel="stylesheet" href="kinout/stylesheets/css/layout.css">
+	<link rel="stylesheet" href="kinout/stylesheets/css/widgets.css">
+	<link rel="stylesheet" href="assets/lib/highlight/styles/googlecode.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+	<div class="kinout">
+
+		<section>
+			<article>
+				<h1 >Hackear tpl es cosa del pasado</h1>
+			</article>
+		</section>
+
+		<section>
+			<article>
+				<h2>Acerca de mí</h2>
+				<p class="vertical">
+					<img src="assets/images/real-me-blog.jpg" class="bordered size_256 center image-shadow">
+				</p>
+				<p class="vertical">Mi nombre es Jesús Manuel Olivas</p>
+				<p class="vertical">Me pueden encontrar en twitter como <strong>@jmolivas</strong><br/>
+				En mi blog http://jmolivas.com</p>
+			</article>
+		</section>
+
+		<section>
+			<h2 class="small">¿Que puede hacer Display Suite por mí ?</h2>
+			<article>
+				<p class="left small">Display Suite permite controlar como los contenidos o campos de las entidades son desplegados utilizando una interfaz drag & drop. Sin la necesidad de crear o modificar archivos tpl.</p>
+				<p class="left small">Por defecto Display suite incluye vistas o modos predefinidos para mostrar los datos (Teaser, Full, RSS) llamados "View Modes". Modificando o agregando estos y asignando campos en las regiones, es que logramos controlar como las diferentes piezas de contenido o campos son mostradas en estos "View Modes" los cuales pueden ser consumudos por el modulo "Views"<br/><br/></p>
+				<a href="http://drupal.org/project/ds">http://drupal.org/project/ds</a>
+			</article>
+		</section>
+
+		<section>
+			<h2> Características </h2>
+			<article>
+				<ul>
+				<li class="left small">Agregar diferentes "View Modes" por entidad (node, user, taxonomy).</li>					
+				<li class="left small">Opción de ocultar ó modificar etiquetas.</li>
+				<li class="left small">Agregar nuevos campos utilizando tokens o código PHP.</li>
+								
+				<li class="left small">Activando el modulo "Extras" : </li>
+				<ul>
+					<li class="left small">Ocultar titulo, aplicar formato "View Mode" directamente a nivel de contenido.</li>
+					<li class="left small">Modificar, simplificar la salida de HTML en campos.</li>
+					<li class="left small">Agregar bloques dentro del la region de contenido.</li>
+					<li class="left small">Campos adicionales basado en otros módulos.</li>
+					<li class="left small">Mostrar datos de nodo en un bloque.</li>
+				</ul>
+				<li class="left small">Integración con modulo "Views" y "WebForm".</li>
+				</ul>
+			</article>
+		</section>
+
+		<section>
+			<h2 > Adminstración de "Display Suite" </h2>
+			<article>
+				<p class="vertical">
+					admin/structure/ds
+					<img src="assets/images/display-suite-main.png" class="bordered center image-shadow">
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<h2 class="medium"> "View Mode" disponibles para entidad "Node-Article" </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/custom-display-settings.png" class="bordered center image-shadow">
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<h2> Agregar "View Mode" para entidad tipo "Node"</h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/add-view-mode.png" class="bordered center image-shadow">
+				</p>
+			</article>
+		</section>	
+			
+		<section>
+			<h2> "View Mode" entidad "Node-Article" </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/view-mode-entity.png" class="bordered center image-shadow">
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<h2> Opción de modificar etiquetas </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/view-mode-field-labels.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">En esta pantalla es posible:</p>
+				<ul>
+					<li class="left small">Modificar el valor pre-establecido de la etiqueta.</li>
+					<li class="left small">Definir si la etiqueta se mostrará o estará oculta.</li>
+					<li class="left small">Establecer si la etiqueta se mostrará a un costado o sobre el valor del campo.</li>
+				</ul>
+			</article>
+		</section>
+		
+		<section>
+			<h2>Selección de estilos/plantilla de campo</h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/view-mode-field-semantic.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Definir salida HTML de campo:</p>
+				<ul>
+					<li class="left small">Default: Salida por defecto.</li>
+					<li class="left small">Full Reset: Elimina todo el markup HTML es decir elimina la *divitis o *divception.</li>
+					<li class="left small">Minimal: Elimina la mayor marte del markup dejando un contener sencillo.</li>
+					<li class="left small">Expert: Permite definir el markup que utilizará el campo.</li>
+				</ul>
+
+			</article>
+		</section>
+
+		<section>
+			<h2 class="small"> Configuración de plantilla Expert (ninja) </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/view-mode-field-semantic-2.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Permite establecer manualmente tipo de elemento y asignar clases para cada uno de los diferentes elementos HTML contenedores de el campo.</p>
+			</article>
+		</section>
+
+		<section>
+			<h2> Configuración salida HTML para campo </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/view-mode-field-semantic-3.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Permite establecer manualmente tipo de elemento y clases para campo.</p>
+				<p class="left small">Permite establecer caracterísiticas adicionales particulares por tipo de campo.</p>
+			</article>
+		</section>
+
+		<section>
+			<h2> Extras: Plantilla de campo </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/extras-field-template.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Activar opción de plantilla de campo y establecer la plantilla por defecto.</p>
+			</article>
+		</section>
+
+		<section>
+			<h2 class="medium"> Extras: Campos adicionales (No Field-UI) </h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/extras-extra-fields.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Agregar campos a mostrar en region de contenido campos que se generan por medio de otros modulos (disqus,tweetbutton,facebookshare,google_plusone).</p>
+			</article>
+		</section>
+
+		<section>
+			<h2 class="medium"> Extras: Otros</h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/extras-other.png" class="bordered center image-shadow">
+				</p>
+				<p class="left small">Asignar "View Mode" directamente a nivel de nodo, enlaces contextuales, opciones para titulo.</p>
+			</article>
+		</section>
+
+		<section>
+			<h2 class="medium">Integración con "Views"</h2>
+			<article>
+				<p class="vertical">
+					<img src="assets/images/views-integration.png" class="bordered center image-shadow">
+				</p>
+			</article>
+		</section>		
+
+		<section>
+			<article>
+				<h2 class="medium"> Referencias</h2>
+				<p class="left small ">
+					Slides hechas con kinout<br/>
+					<a href="http://github.com/soyjavi/kinout">kinout on github</a>
+				</p>
+				<p class="left small ">
+					Tipografías utlizadas Bitter & Open Sans<br/>
+					<a href="http://www.google.com/webfonts/specimen/Bitter">Open Sans en google webfont directory</a><br/>
+					<a href="http://www.google.com/webfonts/specimen/Open+Sans">Bitter en google webfont directory</a><br/>
+				</p>
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<article>
+				<h2 class="medium"> Agradecimientos </h2>
+				<p class="vertical">
+					<img src="assets/images/real-me-blog.jpg" class="bordered size_256 center image-shadow">
+				</p>
+				<p>Hackear tpl es cosa del pasado - Panamá Octubre 2012</p>
+				<p class="vertical">Jesús Manuel Olivas | @jmolivas | http://jmolivas.com</p>
+			</article>
+		</section>
+	</div>
+
+	<script src="kinout/javascripts/Kinout.js"></script>
+	<script src="kinout/javascripts/Kinout.Core.js"></script>
+	<script src="kinout/javascripts/Kinout.Dom.js"></script>
+	<script src="kinout/javascripts/Kinout.Router.js"></script>
+	<script src="kinout/javascripts/Kinout.Events.js"></script>
+	<script src="kinout/javascripts/Kinout.Url.js"></script>
+	<script src="kinout/javascripts/Kinout.View.js"></script>
+
+	<script>
+		KINOUT.Core.init({ template: 'circle' });
+	</script>
+
+	<script src="assets/lib/highlight/highlight.pack.js"></script>
+
+	<script type="text/javascript">
+		hljs.tabReplace = ' ';
+		//hljs.tabReplace = '<span class="indent">\t</span>';
+  		hljs.initHighlightingOnLoad();
+	</script>
+</body>
+</html>
