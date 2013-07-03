@@ -1,4 +1,4 @@
-hackear-tpl-es-cosa-del-pasado
+Stop hacking tpls, take full control of your site layout with Display Suite
 =============================
 
- Slides para charla DrupalCamp Centroamérica 2012
+ Slides for SandCamp 2013
